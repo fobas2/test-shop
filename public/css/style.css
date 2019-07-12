@@ -1,0 +1,99 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2; 
+}
+
+.wrapper{ 
+    max-width: 960px; 
+    width: 960px;
+    padding: 15px;                 
+    margin: 0 auto;             
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+a{
+    color:#669; 
+}
+
+table{
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+    max-width: 300px;
+}
+
+td a{
+    float: right;
+    text-decoration: none;
+}
+
+.back a{
+    text-decoration: none;
+}
+
+tr td:nth-child(3){
+    text-align: center;
+}
+
+tr:hover td, a:hover {color: #006ebd;}
+tr:hover td{
+    background: #f7fafc;
+}
+
+.basket-btn{
+    display: inline-block;
+    background: #8db3d9;
+    color: white;            
+    border: 1px solid #8db3d9;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    text-decoration: none;            
+}
+
+hr{
+    margin: 0;
+    height: 30px;
+    border-style: solid;
+    border-color: #8db3d9;
+    border-width: 1px 0 0 0;    
+}
+
+.btn-add-to-basket{
+    background-color: #8db3d9;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+}
+
+.btn-add-to-basket:hover{
+    background-color: #3f7fbf;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
